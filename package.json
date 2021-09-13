@@ -11,13 +11,21 @@
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.7.6",
     "next": "9.3.6",
+    "object-path": ">=0.11.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "serialize-javascript": ">=3.1.0",
     "tailwindcss": "^1.4.6"
   },
   "resolutions": {
     "next/**/elliptic": ">=6.5.3",
     "next/**/serialize-javascript": ">=3.1.0",
-    "next/**/object-path": ">=0.11.5"
+    "next/**/object-path": ">=0.11.5",
+    "tailwindcss/**/**/**/postcss": ">=7.0.36 <8.0.0 || >=8.2.10",
+    "next": ">=11.1.0",
+    "next/**/**/**/**/glob-parent": ">=5.1.2",
+    "next/browserslist": ">=4.16.5",
+    "next/resolve-url-loader/postcss": ">=7.0.36 <8.0.0 || >=8.2.10",
+    "next/postcss": ">=7.0.36 <8.0.0 || >=8.2.10"
   }
 }
